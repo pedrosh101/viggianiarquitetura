@@ -43,9 +43,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex w-full place-content-between font-parag bg-slate-100 sm:py-6 py-2 px-4 sm:px-4 text-black font-extralight text-2xl fixed z-50">
+    <div className="flex w-full place-content-between font-kabel bg-slate-100 sm:py-6 py-2 px-4 sm:px-4 text-black font-extralight fixed z-50">
       <Link href="/">
-        <h1 className="">Viggiani Arquitetura</h1>
+        <h1 className="text-3xl">Viggiani Arquitetura</h1>
       </Link>
       <div className="sm:hidden">
         <div
@@ -62,20 +62,20 @@ const Navbar = () => {
       </div>
       {/* Controlando a exibição da lista de navegação */}
       <nav className="hidden sm:block">
-        <ul className="flex space-x-4 underline-offset-4">
+        <ul className="flex space-x-4 text-2xl underline-offset-4">
           <li>
             <Link href="/projetos">
-              <h1 className="text-base hover:underline">Projetos</h1>
+              <h1 className="hover:underline decoration-1">Projetos</h1>
             </Link>
           </li>
           <li>
             <Link href="/sobre">
-              <h1 className="text-base hover:underline">Quem Somos</h1>
+              <h1 className="hover:underline decoration-1">Quem Somos</h1>
             </Link>
           </li>
           <li>
             <Link href="/contato">
-              <h1 className="text-base hover:underline">Contato</h1>
+              <h1 className="hover:underline decoration-1">Contato</h1>
             </Link>
           </li>
         </ul>
@@ -88,12 +88,12 @@ const Navbar = () => {
       >
         <div
           ref={navRef}
-          className={`fixed flex flex-col right-0 top-0 h-full w-72 sm:w-80 p-10 bg-black shadow transition-transform transform duration-700 text-white ${
+          className={`fixed flex flex-col right-0 top-0 h-full w-72 sm:w-80 p-10 bg-stone-800 shadow transition-transform transform duration-700 text-white ${
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
           <section>
-            <ul className="flex flex-col space-y-4 font-light">
+            <ul className="flex flex-col space-y-4 font-light text-2xl">
               <Link href="/projetos">
                 <li onClick={toggleNav}>Projetos</li>
               </Link>

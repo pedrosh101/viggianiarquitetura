@@ -27,7 +27,7 @@ const Projeto: React.FC<ProjetoProps> = ({ title, path }) => {
   };
 
   return (
-    <div className="relative overflow-hidden aspect-square">
+    <div className="relative overflow-hidden aspect-square font-sans">
       <Image
         src={path}
         alt="Imagem"
