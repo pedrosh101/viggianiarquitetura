@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Navbar />
       <main className="flex flex-col min-h-screen sm:px-24 px-4 bg-slate-100 justify-between pt-24 font-kabel">
-        <div className="flex sm:flex-row flex-col h-5/6 text-black text-xl my-20 gap-10">
+        <div className="flex sm:flex-row flex-col min-h-screen text-black text-xl my-20 gap-10">
           <div className="sm:w-2/5 justify-end flex flex-col mb-4 gap-5">
             <h1 className="text-3xl">Viggiani Arquitetura</h1>
             <div className="bg-black h-0.2"></div>
@@ -37,8 +37,9 @@ export default function Home() {
               mais de 250 obras entregues nas diversas praias do litoral norte.
               Alguns desses projetos podem ser visualizados aqui, ou em seu
               <Link
-                href="https://imgur.com/lIlb2VS"
-                target="_blank" className="text-red-500"
+                href="www.instagram.com/viggianiarquitetura"
+                target="_blank"
+                className="text-red-500"
               >
                 {" "}
                 Instagram
@@ -48,9 +49,10 @@ export default function Home() {
           </div>
           <div className="sm:w-3/5 relative overflow-hidden">
             <Image
-              src={Front}
+              src="https://i.imgur.com/lIlb2VS.jpg"
               alt="Imagem"
               className="w-full h-full object-cover"
+              fill
             />
           </div>
         </div>
