@@ -49,7 +49,7 @@ export default function Home() {
           </div>
           <div className="sm:w-3/5 relative overflow-hidden">
             <Image
-              src="https://i.imgur.com/lIlb2VS.jpg"
+              src={Front}
               alt="Imagem"
               className="w-full h-full object-cover"
               fill
