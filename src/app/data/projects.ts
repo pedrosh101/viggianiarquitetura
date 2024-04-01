@@ -11,20 +11,20 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
     dado3: "Área: 49m²",
     fotos: ["/proj/Projeto1/1.JPG"],
-    category: "old"
+
   },
   {
     id: 2,
-    title: "Projeto 2",
+    title: "Praia do Lazaro / Pedra Verde",
     description: "Texto sobre o projeto",
-    img: "/proj/Projeto2/1.JPG",
+    img: "/proj/Projeto7/1.JPG",
     local: "Ubatuba-SP",
     name: "Ricardo Viggiani",
     projeto: "Reforma - Arquitetura e Interiores",
     dado1: "Ano do projeto: 2021",
     dado2: "Ano de conclusão da obra: 2023",
     dado3: "Área: 49m²",
-    fotos: ["/proj/Projeto2/1.JPG"],
+    fotos: ["/proj/Projeto7/1.JPG"],
     category: "old"
   },
   {
@@ -39,7 +39,7 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
     dado3: "Área: 49m²",
     fotos: ["/proj/Projeto3/1.JPG"],
-    category: "old"
+    category: "new"
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
     dado3: "Área: 49m²",
     fotos: ["/proj/Projeto4/1.JPG"],
-    category: "new"
+    category: "old"
   },
   {
     id: 5,
@@ -81,6 +81,20 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
     dado3: "Área: 49m²",
     fotos: ["/proj/Projeto6/1.JPG"],
+    category: "old"
+  },
+  {
+    id: 7,
+    title: "Praia Dura",
+    description: "Texto sobre o projeto",
+    img: "/proj/Projeto8/1.JPG",
+    local: "Ubatuba-SP",
+    name: "Ricardo Viggiani",
+    projeto: "Reforma - Arquitetura e Interiores",
+    dado1: "Ano do projeto: 2021",
+    dado2: "Ano de conclusão da obra: 2023",
+    dado3: "Área: 49m²",
+    fotos: ["/proj/Projeto8/1.JPG"],
     category: "new"
   },
 ];

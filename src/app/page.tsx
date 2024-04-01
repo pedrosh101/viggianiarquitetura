@@ -23,11 +23,11 @@ export default function Home() {
               projetos e obras, especialmente de casas na praia.<br></br> Ao
               longo de 43 anos, Ricardo e sua equipe desenvolveram vários
               projetos para pessoas que optaram por morar ou passar temporadas
-              próximas ao mar. Seu trabalho consiste em orientar os clientes
-              desde o melhor aproveitamento das áreas, seguindo a legislação
-              municipal e estadual, até a conclusão da obra e obtenção do
-              habite-se, passando pelo acompanhamento de todas as etapas da
-              construção.<br></br>
+              próximas ao mar.<br></br> Seu trabalho consiste em orientar os
+              clientes desde o melhor aproveitamento das áreas, seguindo a
+              legislação municipal e estadual, até a conclusão da obra e
+              obtenção do habite-se, passando pelo acompanhamento de todas as
+              etapas da construção.<br></br>
               Conceitos como uso de energia solar e fotovoltaica,
               reaproveitamento das águas, biodigestores e uso sustentável dos
               materiais, incluindo madeiras renováveis, são priorizados em seus
@@ -36,7 +36,14 @@ export default function Home() {
               de vida. Com essa filosofia, Ricardo Viggiani e sua equipe têm
               mais de 250 obras entregues nas diversas praias do litoral norte.
               Alguns desses projetos podem ser visualizados aqui, ou em seu
-              Instagram (@viggianiarquitetura).
+              <Link
+                href="www.instagram.com/viggianiarquitetura"
+                target="_blank" className="text-red-500"
+              >
+                {" "}
+                Instagram
+              </Link>
+              .
             </h1>
           </div>
           <div className="sm:w-3/5 relative overflow-hidden">
