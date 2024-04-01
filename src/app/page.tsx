@@ -3,7 +3,7 @@ import { projects } from "../app/data/projects";
 import Projeto from "./components/projeto";
 import Link from "next/link";
 import Image from "next/image";
-import Front from "../../public/proj/Projeto1/1.jpg";
+
 
 export default function Home() {
   return (
@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           <div className="sm:w-3/5 relative overflow-hidden">
             <Image
-              src={Front}
+              src="../../public/proj/Projeto1/1.jpg"
               alt="Imagem"
               className="w-full h-full object-cover"
             />
