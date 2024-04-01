@@ -11,6 +11,7 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
     dado3: "Área: 49m²",
     fotos: ["/proj/Projeto1/1.JPG"],
+    category: "old"
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
     dado3: "Área: 49m²",
     fotos: ["/proj/Projeto2/1.JPG"],
+    category: "old"
   },
   {
     id: 3,
@@ -37,6 +39,7 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
     dado3: "Área: 49m²",
     fotos: ["/proj/Projeto3/1.JPG"],
+    category: "old"
   },
   {
     id: 4,
@@ -50,6 +53,7 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
     dado3: "Área: 49m²",
     fotos: ["/proj/Projeto4/1.JPG"],
+    category: "new"
   },
   {
     id: 5,
@@ -63,6 +67,7 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
     dado3: "Área: 49m²",
     fotos: ["/proj/Projeto5/1.JPG"],
+    category: "new"
   },
   {
     id: 6,
@@ -76,5 +81,6 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
     dado3: "Área: 49m²",
     fotos: ["/proj/Projeto6/1.JPG"],
+    category: "new"
   },
 ];
