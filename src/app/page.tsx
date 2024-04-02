@@ -34,14 +34,13 @@ export default function Home() {
               projetos, junto com nossos clientes, seja em reformas ou em novas
               construções, objetivando sempre uma melhor qualidade de vida. E
               com essa filosofia, temos hoje mais de 250 obras entregues nas
-              diversas praias do litoral norte.<br></br> Algumas delas voce pode ver
-              aqui, ou em nosso
+              diversas praias do litoral norte.<br></br> Algumas delas voce pode
+              ver aqui, ou em nosso
               <Link
-                href="www.instagram.com/viggianiarquitetura"
+                href="https://www.instagram.com/viggianiarquitetura"
                 target="_blank"
                 className="text-red-500"
               >
-                {" "}
                 Instagram
               </Link>
               .
