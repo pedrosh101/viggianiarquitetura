@@ -5,7 +5,7 @@ import Link from "next/link";
 import Logo from "../../../public/VIGGIANI.png";
 import Image from "next/image";
 
-const Navbar = () => {
+const Navbar = ({ navbarZIndex }: any) => {
   const [isOpen, setIsOpen] = useState(false);
   const navRef = useRef<HTMLDivElement | null>(null);
 
@@ -46,7 +46,11 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex w-full items-center place-content-between font-kabel bg-slate-100 py-2 px-4 sm:px-24 text-black font-extralight fixed z-50">
+      <div
+        className={`flex w-full items-center justify-between font-kabel bg-slate-100 py-2 px-4 sm:px-24 text-black font-extralight fixed ${
+          navbarZIndex ? "z-0" : "z-30"
+        }`}
+      >
         <Link href="/">
           <Image src={Logo} alt="logo" height={140} width={100} />
         </Link>
@@ -72,7 +76,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/sobre">
+              <Link href="/quem-somos">
                 <h1 className="hover:underline decoration-1">Quem Somos</h1>
               </Link>
             </li>
@@ -85,7 +89,7 @@ const Navbar = () => {
         </nav>
         {/* Dropdown menu para dispositivos móveis */}
         <div
-          className={`sm:hidden fixed inset-0 bg-black bg-opacity-75 z-50 transition-opacity duration-700 ${
+          className={`sm:hidden fixed inset-0 bg-black bg-opacity-75 z-30 transition-opacity duration-700 ${
             isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
           }`}
         >
