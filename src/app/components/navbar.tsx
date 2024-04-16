@@ -87,6 +87,7 @@ const Navbar = ({ navbarZIndex }: any) => {
             </li>
           </ul>
         </nav>
+        
         {/* Dropdown menu para dispositivos móveis */}
         <div
           className={`sm:hidden fixed inset-0 bg-black bg-opacity-75 z-30 transition-opacity duration-700 ${
