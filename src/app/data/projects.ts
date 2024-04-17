@@ -2,9 +2,18 @@ export const projects = [
   {
     id: 5,
     title: "Itamambuca R13",
-    description: "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+    description:
+      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
     img: "/proj/projeto5/1.jpg",
-    fotos: ["/proj/projeto5/2.jpg", "/proj/projeto5/3.jpg"],
+    fotos: [
+      "/proj/projeto5/2.jpg",
+      "/proj/projeto5/3.jpg",
+      "/proj/projeto5/4.jpg",
+      "/proj/projeto5/5.jpg",
+      "/proj/projeto5/6.jpg",
+      "/proj/projeto5/7.jpg",
+      "/proj/projeto5/8.jpg",
+    ],
     decada: "todos",
     local: "Ubatuba-SP",
     name: "Ricardo Viggiani",
@@ -15,7 +24,8 @@ export const projects = [
   {
     id: 2,
     title: "Itamambuca R6",
-    description: "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+    description:
+      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
     img: "/proj/projeto2/2.jpg",
     fotos: [
       "/proj/projeto2/6.jpg",
@@ -56,7 +66,8 @@ export const projects = [
   {
     id: 4,
     title: "Praia Dura",
-    description: "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+    description:
+      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
     img: "/proj/projeto4/6.jpg",
     fotos: [
       "/proj/projeto4/2.jpg",
@@ -65,6 +76,12 @@ export const projects = [
       "/proj/projeto4/5.jpg",
       "/proj/projeto4/1.jpg",
       "/proj/projeto4/7.jpg",
+      "/proj/projeto4/8.jpg",
+      "/proj/projeto4/9.jpg",
+      "/proj/projeto4/10.jpg",
+      "/proj/projeto4/11.jpg",
+      "/proj/projeto4/12.jpg",
+      "/proj/projeto4/13.jpg",
     ],
     decada: "todos",
     local: "Ubatuba-SP",
@@ -77,7 +94,8 @@ export const projects = [
   {
     id: 6,
     title: "Felix Pascale",
-    description: "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+    description:
+      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
     img: "/proj/projeto6/1.jpg",
     fotos: [
       "/proj/projeto6/2.jpg",
@@ -96,9 +114,18 @@ export const projects = [
   {
     id: 7,
     title: "Respinga",
-    description: "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+    description:
+      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
     img: "/proj/projeto7/1.jpg",
-    fotos: ["/proj/projeto7/2.jpg", "/proj/projeto7/3.jpg"],
+    fotos: [
+      "/proj/projeto7/2.jpg",
+      "/proj/projeto7/3.jpg",
+      "/proj/projeto7/4.jpg",
+      "/proj/projeto7/5.jpg",
+      "/proj/projeto7/6.jpg",
+      "/proj/projeto7/7.jpg",
+      "/proj/projeto7/8.jpg",
+    ],
     decada: "todos",
     local: "Ubatuba-SP",
     name: "Ricardo Viggiani",
@@ -109,12 +136,17 @@ export const projects = [
   {
     id: 8,
     title: "PVS",
-    description: "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+    description:
+      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
     img: "/proj/projeto8/1.jpg",
     fotos: [
       "/proj/projeto8/2.jpg",
       "/proj/projeto8/3.jpg",
       "/proj/projeto8/4.jpg",
+      "/proj/projeto8/5.jpg",
+      "/proj/projeto8/6.jpg",
+      "/proj/projeto8/7.jpg",
+      "/proj/projeto8/8.jpg",
     ],
     decada: "todos",
     local: "Ubatuba-SP",
@@ -126,7 +158,8 @@ export const projects = [
   {
     id: 9,
     title: "Ateliê",
-    description: "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+    description:
+      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
     img: "/proj/projeto9/1.jpg",
     fotos: [
       "/proj/projeto9/2.jpg",
@@ -144,7 +177,8 @@ export const projects = [
   {
     id: 10,
     title: "Lázaro/Pedra Verde",
-    description: "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+    description:
+      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
     img: "/proj/projeto10/1.jpg",
     fotos: ["/proj/projeto10/2.jpg"],
     decada: "todos",
@@ -157,7 +191,8 @@ export const projects = [
   {
     id: 1,
     title: "Lázaro/Pedra Verde",
-    description: "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+    description:
+      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
     img: "/proj/projeto1/3.jpg",
     fotos: [
       "/proj/projeto1/2.jpg",
@@ -174,7 +209,8 @@ export const projects = [
   {
     id: 11,
     title: "Itamambuca M",
-    description: "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+    description:
+      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
     img: "/proj/projeto11/8.jpg",
     fotos: [
       "/proj/projeto11/2.jpg",
@@ -195,7 +231,8 @@ export const projects = [
   {
     id: 12,
     title: "Pedra Verde H",
-    description: "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+    description:
+      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
     img: "/proj/projeto12/1.jpg",
     fotos: ["/proj/projeto12/1.jpg"],
     decada: "todos",
