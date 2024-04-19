@@ -31,10 +31,12 @@ const ProjetoDetalhes = ({ params }: any) => {
 
   return (
     <>
-      <main className="flex w-full flex-col bg-slate-100 text-black min-h-screen">
+      <main className="flex w-full flex-col bg-slate-100 text-black">
         <Navbar navbarZIndex="z-0" />
         <div className="flex sm:flex-row flex-col pt-24 sm:px-6 px-4 space-x-6 pb-12">
-          <div className="flex flex-col md:min-h-screen w-full">
+
+          {/* left */}
+          <div className="flex flex-col md:h-screen w-1/2">
             {/* main pic */}
             <div className="sm:h-5/6 h-96 w-full relative">
               <Image
@@ -50,7 +52,6 @@ const ProjetoDetalhes = ({ params }: any) => {
             <h1 className="sm:text-5xl text-4xl sm:my-12 my-10 text-center">
               {proj?.title}
             </h1>
-
             <div className="w-full px-4 sm:px-0 text-sm">
               {proj?.local && (
                 <div>
@@ -60,7 +61,6 @@ const ProjetoDetalhes = ({ params }: any) => {
                   </div>
                 </div>
               )}
-
               {proj?.decada && (
                 <div>
                   <div className="h-[1.0px] w-full bg-black my-2"></div>
@@ -84,12 +84,12 @@ const ProjetoDetalhes = ({ params }: any) => {
 
           {/* direita, miniaturas */}
 
-          <div className="flex gap-4 w-full justify-center">
+          <div className="grid grid-cols-2 w-1/2 gap-4 justify-center">
             {proj?.fotos.map((foto, index) => (
               <div
                 key={index}
                 onClick={() => openModal(index)}
-                className="h-full w-full relative"
+                className="relative h-96 w-full"
               >
                 <Image
                   src={foto}
@@ -128,11 +128,11 @@ const ProjetoDetalhes = ({ params }: any) => {
                       >
                         {proj?.fotos.map((foto, index) => (
                           <SwiperSlide key={index}>
-                            <div className="flex h-full w-full items-center justify-center">
+                            <div className="flex h-full w-full items-center justify-center relative">
                               <Image
                                 src={foto}
                                 alt={`Imagem ${index + 1}`}
-                                className="block object-contain h-full w-full"
+                                className="block object-contain"
                                 fill
                               />
                             </div>
