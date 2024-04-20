@@ -33,10 +33,10 @@ const ProjetoDetalhes = ({ params }: any) => {
     <>
       <main className="flex w-full flex-col bg-slate-100 text-black">
         <Navbar navbarZIndex="z-0" />
-        <div className="flex sm:flex-row flex-col pt-24 sm:px-6 px-4 space-x-6 pb-12">
+        <div className="flex sm:flex-row flex-col sm:pt-24 pt-32 sm:px-6 px-4 sm:space-x-6 pb-12">
 
           {/* left */}
-          <div className="flex flex-col md:h-screen w-1/2">
+          <div className="flex flex-col md:h-screen sm:w-1/2">
             {/* main pic */}
             <div className="sm:h-5/6 h-96 w-full relative">
               <Image
@@ -52,7 +52,7 @@ const ProjetoDetalhes = ({ params }: any) => {
             <h1 className="sm:text-5xl text-4xl sm:my-12 my-10 text-center">
               {proj?.title}
             </h1>
-            <div className="w-full px-4 sm:px-0 text-sm">
+            <div className="w-full text-sm">
               {proj?.local && (
                 <div>
                   <div className="flex justify-between">
@@ -84,7 +84,7 @@ const ProjetoDetalhes = ({ params }: any) => {
 
           {/* direita, miniaturas */}
 
-          <div className="grid grid-cols-2 w-1/2 gap-4 justify-center">
+          <div className="grid sm:grid-cols-2 grid-cols-1 sm:w-1/2 gap-4 justify-center sm:pt-0 pt-4">
             {proj?.fotos.map((foto, index) => (
               <div
                 key={index}
