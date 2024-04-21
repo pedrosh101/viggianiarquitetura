@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Navbar from "@/app/components/navbar";
 import Image from "next/image";
 import { projects } from "../../data/projects";
@@ -13,11 +14,8 @@ import "swiper/css/thumbs";
 
 const ProjetoDetalhes = ({ params }: any) => {
   const proj = projects.find((proj) => proj.id.toString() === params.id);
-
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(
-    null
-  );
+  const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
 
   const openModal = (index: number) => {
     setSelectedImageIndex(index);
@@ -32,7 +30,7 @@ const ProjetoDetalhes = ({ params }: any) => {
   return (
     <>
       <main className="flex w-full flex-col bg-slate-100 text-black">
-        <Navbar navbarZIndex="z-0" />
+        <Navbar navbarZIndex={modalIsOpen} /> {/* Aqui está a alteração */}
         <div className="flex sm:flex-row flex-col sm:pt-24 pt-32 sm:px-6 px-4 sm:space-x-6 pb-12">
 
           {/* left */}
@@ -48,7 +46,6 @@ const ProjetoDetalhes = ({ params }: any) => {
             </div>
 
             {/* textos */}
-
             <h1 className="sm:text-5xl text-4xl sm:my-12 my-10 text-center">
               {proj?.title}
             </h1>
@@ -75,7 +72,6 @@ const ProjetoDetalhes = ({ params }: any) => {
                   <div className="h-[1.0px] w-full bg-black my-2"></div>
                   <div className="flex justify-between">
                     <h2>{proj?.description}</h2>
-                  
                   </div>
                 </div>
               )}
@@ -121,7 +117,7 @@ const ProjetoDetalhes = ({ params }: any) => {
                         navigation
                         pagination={{ type: "fraction" }}
                         modules={[Navigation, Pagination]}
-                        className="md:h-[50em] md:w-[80em] h-96 w-96"
+                        className="md:min-h-screen md:w-[70em] h-96 w-96"
                         initialSlide={
                           selectedImageIndex !== null ? selectedImageIndex : 0
                         }

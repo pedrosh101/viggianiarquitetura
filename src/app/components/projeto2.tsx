@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, MouseEvent } from "react";
-import Image from "next/image";
+
 
 type ProjetoProps = {
   title: string;
