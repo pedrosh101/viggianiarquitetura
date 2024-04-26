@@ -12,7 +12,10 @@ export default function Home() {
         {/* 1980 */}
 
         <div className="grid sm:grid-cols-3 gap-2 sm:pt-6 text-white pb-2">
-          {projects.map((proj) => (
+          {projects
+          .filter((proj) => proj.decada === "todos")
+          .slice(0, 9)
+          .map((proj) => (
             <Link
               key={proj.id}
               href={{
