@@ -49,7 +49,7 @@ export default function Projetos() {
                 slidesPerView="auto"
                 spaceBetween={4}
                 modules={[Navigation]}
-                className="md:h-[20em] md:w-[36em] h-96 w-96 my-10"
+                className="md:h-[20em] md:w-[36em] h-96 w-96 my-0 md:my-10"
               >
                 {projeto14?.fotos.map((foto, index) => (
                   <SwiperSlide key={index}>
@@ -75,7 +75,7 @@ export default function Projetos() {
               </AccordionButton>
             </h2>
             <AccordionPanel>
-              <div className="grid sm:grid-cols-4 gap-2 sm:pt-6 text-white pb-2">
+              <div className="grid sm:grid-cols-4 gap-2 sm:pt-6 text-white pb-2 my-10 md:my-0">
                 {projects
                   .filter((proj) => proj.decada === "todos")
                   .map((proj) => (
@@ -106,7 +106,7 @@ export default function Projetos() {
                 slidesPerView="auto"
                 spaceBetween={4}
                 modules={[Navigation]}
-                className="md:h-[20em] md:w-[36em] h-96 w-96 my-10"
+                className="md:h-[20em] md:w-[36em] h-96 w-96 my-0 md:my-10"
               >
                 {projeto15?.fotos.map((foto, index) => (
                   <SwiperSlide key={index}>
