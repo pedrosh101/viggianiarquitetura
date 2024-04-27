@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="flex flex-col min-h-screen sm:px-6 px-4 bg-slate-100 justify-between pt-20 font-kabel">
+      <main className="flex flex-col min-h-screen sm:px-6 px-4 bg-slate-100 justify-between pt-20 font-kabel pb-8">
         {/* todos */}
 
         <div className="grid sm:grid-cols-3 gap-2 sm:pt-6 text-white pb-2">
