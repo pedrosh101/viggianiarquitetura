@@ -1,9 +1,9 @@
 export const projects = [
   {
-    id: 5,
+    id: 1,
     title: "Itamambuca R13",
     description:
-      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+      "Apesar de solteiro, o pedido desse cliente foi uma casa com 4 suítes, ampla e toda aberta, com estrutura de eucalipto tratado, e que pudesse ser alugadas por famílias até 10 à 12 pessoas. A escada, que a princípio gerou dúvidas sobre a posição e formato*, acabou se tornando mais um atrativo da casa. *Toda executada por uma marcenaria de Ubatuba.",
     img: "/proj/projeto5/3.jpg",
     fotos: [
       "/proj/projeto5/2.jpg",
@@ -26,7 +26,7 @@ export const projects = [
     id: 2,
     title: "Itamambuca R6",
     description:
-      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+      "Abrigar uma família, casal com dois filhos, vindos da Europa, numa casa com espaços amplos e abertos. Esse foi o pedido do cliente, que tendo uma marcenaria, finalizou a obra com os serviços de armários e bancadas de madeira. A piscina, já existente na compra do terreno, foi incorporada ao deck do novo projeto.",
     img: "/proj/projeto2/6.jpg",
     fotos: [
       "/proj/projeto2/2.jpg",
@@ -67,30 +67,9 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Praia Dura - ITA",
-    description:
-      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
-    img: "/proj/projeto4/6.jpg",
-    fotos: [
-      "/proj/projeto4/2.jpg",
-      "/proj/projeto4/3.jpg",
-      "/proj/projeto4/4.jpg",
-      "/proj/projeto4/5.jpg",
-      "/proj/projeto4/1.jpg",
-    ],
-    decada: "todos",
-    local: "Ubatuba-SP",
-    name: "Ricardo Viggiani",
-    projeto: "Reforma - Arquitetura e Interiores",
-    dado1: "Ano do projeto: 2021",
-    dado2: "Ano de conclusão da obra: 2023",
-  },
-
-  {
-    id: 6,
     title: "Felix",
     description:
-      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+      "Casa toda voltada para a linda vista da praia do Felix, com estrutura de eucalipto e poucas paredes, para uma cliente que mora no exterior, mas que possa receber os irmãos e amigos.",
     img: "/proj/projeto6/1.jpg",
     fotos: [
       "/proj/projeto6/2.jpg",
@@ -108,10 +87,10 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
   },
   {
-    id: 7,
-    title: "Respinga",
+    id: 5,
+    title: "Respinga - DR",
     description:
-      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+      "Espaços abertos, cimento queimado, cozinha com fogão à lenha e deck com uma vista incrível para um trecho pouco conhecido da costa de Ubatuba, utilizando ainda esquadrias de demolição junto com outras notas (marcenaria, feita sob medida)",
     img: "/proj/projeto7/1.jpg",
     fotos: [
       "/proj/projeto7/2.jpg",
@@ -131,7 +110,7 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
   },
   {
-    id: 8,
+    id: 6,
     title: "Praia Vermelha do Sul - MJ",
     description:
       "Implantar a casa de praia num terreno de forte aclive, e com um muro de arrimo já construído (projetado pelo escritório do renomado e falecido e arquiteto Joaquim Guedes) foi o desafio que assumimos ao fazer esse rojeto. O muro de arrimo, anteriormente projetado para proteger a futura obra, teve a sua função modificada ao adaptar o seu desenho para a construção dessa piscina, que teve o seu nível elevado, para poder se integrar totalmente ao deck e as áreas sociais da casa.",
@@ -143,6 +122,7 @@ export const projects = [
       "/proj/projeto8/6.jpg",
       "/proj/projeto8/7.jpg",
       "/proj/projeto8/1.jpg",
+      "/proj/projeto8/8.jpg",
     ],
     decada: "todos",
     local: "Ubatuba-SP",
@@ -152,10 +132,10 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
   },
   {
-    id: 9,
+    id: 7,
     title: "Ateliê",
     description:
-      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+      "A ideia aqui era ter um local de trabalho para uma amiga, ceramista, que pudesse abrigar também exposições dela e outras artistas. Estrutura com eucalipto, paredes com terracor, piso cimentado, tijolo aparente, ajudaram à criar o clima para esse projeto.",
     img: "/proj/projeto9/1.jpg",
     fotos: [
       "/proj/projeto9/2.jpg",
@@ -172,24 +152,10 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
   },
   {
-    id: 10,
-    title: "Lázaro/Pedra Verde",
+    id: 8,
+    title: "Lázaro/Pedra Verde - AL",
     description:
-      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
-    img: "/proj/projeto10/1.jpg",
-    fotos: ["/proj/projeto10/2.jpg"],
-    decada: "outros",
-    local: "Ubatuba-SP",
-    name: "Ricardo Viggiani",
-    projeto: "Reforma - Arquitetura e Interiores",
-    dado1: "Ano do projeto: 2021",
-    dado2: "Ano de conclusão da obra: 2023",
-  },
-  {
-    id: 1,
-    title: "Lázaro/Pedra Verde",
-    description:
-      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+      "Implantar a casa num terreno de esquina, permitindo que ela tivesse o melhor aproveitamento para os jardins e insolação dos ambiente sociais, foi a solicitação dos clientes, atendida implantando a obra no sentido diagonal, e não paralelo aos limites do terreno.",
     img: "/proj/projeto1/2.jpg",
     fotos: [
       "/proj/projeto1/4.jpg",
@@ -209,10 +175,10 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
   },
   {
-    id: 11,
+    id: 9,
     title: "Itamambuca R20",
     description:
-      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+      "Uma obra compacta, com 3 quartos e mezanino que pudesse abrigar o casal com dois filhos mais os amigos, além de poder alugar a casa nos feriados prolongados, essa foi a solicitação do jovem casal, moradores do Rio De Janeiro.",
     img: "/proj/projeto11/8.jpg",
     fotos: [
       "/proj/projeto11/2.jpg",
@@ -232,12 +198,12 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
   },
   {
-    id: 12,
-    title: "Pedra Verde H",
+    id: 10,
+    title: "Pedra Verde - H",
     description:
       "Aproveitar ao máximo as áreas permitidas para construção dentro desse terreno na praia do Lazaro, criando espaços para abrigar a numerosa família nas férias e nos finais de semana. Foi o requisito dos donos da antiga casa, que foi totalmente reformulada. Essa área de convivência, abrigada por um pergolado coberto com vidros, e usando como forro esteiras de praia, com piso em cimento queimado branco, acabou se tornando o ponto de encontro dos usuários da casa.",
     img: "/proj/projeto12/1.jpg",
-    fotos: ["/proj/projeto12/2.jpg"],
+    fotos: ["/proj/projeto12/2.jpg", "/proj/projeto12/1.jpg"],
     decada: "todos",
     local: "Ubatuba-SP",
     name: "Ricardo Viggiani",
@@ -246,10 +212,10 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
   },
   {
-    id: 13,
+    id: 11,
     title: "Praia Dura - RP",
     description:
-      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
+      "Uma casa ampla, privilegiando as áreas sociais e com piscina, foi o pedido para um terreno de esquina, para uma construção com estrutura e esquadrias de madeira.",
     img: "/proj/projeto13/1.jpg",
     fotos: [
       "/proj/projeto13/2.jpg",
@@ -258,6 +224,48 @@ export const projects = [
       "/proj/projeto13/5.jpg",
       "/proj/projeto13/6.jpg",
       "/proj/projeto13/7.jpg",
+      "/proj/projeto13/1.jpg",
+    ],
+    decada: "todos",
+    local: "Ubatuba-SP",
+    name: "Ricardo Viggiani",
+    projeto: "Reforma - Arquitetura e Interiores",
+    dado1: "Ano do projeto: 2021",
+    dado2: "Ano de conclusão da obra: 2023",
+  },
+  {
+    id: 12,
+    title: "Praia Vermelha do Sul - TB",
+    description:
+      "Terreno de esquina em aclive, com área licenciada limitada, abrigando 3 suítes e área ampla de convivência foram as premissas que nortearam esse projeto para uma casa na praia.",
+    img: "/proj/projeto16/1.jpg",
+    fotos: [
+      "/proj/projeto16/2.jpg",
+      "/proj/projeto16/3.jpg",
+      "/proj/projeto16/4.jpg",
+      "/proj/projeto16/5.jpg",
+      "/proj/projeto16/6.jpg",
+      "/proj/projeto16/1.jpg",
+    ],
+    decada: "todos",
+    local: "Ubatuba-SP",
+    name: "Ricardo Viggiani",
+    projeto: "Reforma - Arquitetura e Interiores",
+    dado1: "Ano do projeto: 2021",
+    dado2: "Ano de conclusão da obra: 2023",
+  },
+
+  {
+    id: 13,
+    title: "FX - R6",
+    description:
+      "Escada e caixilhos em madeira, fogão à lenha, churrasqueira e lareira, foram os pedidos de um casal de SP com três filhos, para essa casa na praia.",
+    img: "/proj/projeto17/2.jpg",
+    fotos: [
+      "/proj/projeto17/1.jpg",
+      "/proj/projeto17/3.jpg",
+      "/proj/projeto17/4.jpg",
+      "/proj/projeto17/2.jpg",
     ],
     decada: "todos",
     local: "Ubatuba-SP",
@@ -268,6 +276,44 @@ export const projects = [
   },
   {
     id: 14,
+    title: "Domingas Dias - CM",
+    description:
+      "Abrigar uma grande família, privilegiando as áreas de lazer com piscina e churrasqueira, e com os quartos voltados para essa área, foi o solicitado para esse terreno situado na praia da Domingas Dias.",
+    img: "/proj/projeto18/1.jpg",
+    fotos: [
+      "/proj/projeto18/2.jpg",
+      "/proj/projeto18/1.jpg",
+
+    ],
+    decada: "todos",
+    local: "Ubatuba-SP",
+    name: "Ricardo Viggiani",
+    projeto: "Reforma - Arquitetura e Interiores",
+    dado1: "Ano do projeto: 2021",
+    dado2: "Ano de conclusão da obra: 2023",
+  },
+  {
+    id: 15,
+    title: "ZP - R8",
+    description:
+      "Reforma ampla de uma antiga casa na praia, abrigado a família que cresceu nos últimos anos, além dos amigos, sempre presentes. Área de lazer com churrasqueira, deck e spa com hidromassagem completaram essa reforma.",
+    img: "/proj/projeto19/1.jpg",
+    fotos: [
+      "/proj/projeto19/3.jpg",
+      "/proj/projeto19/4.jpg",
+      "/proj/projeto19/2.jpg",
+      "/proj/projeto19/1.jpg",
+
+    ],
+    decada: "todos",
+    local: "Ubatuba-SP",
+    name: "Ricardo Viggiani",
+    projeto: "Reforma - Arquitetura e Interiores",
+    dado1: "Ano do projeto: 2021",
+    dado2: "Ano de conclusão da obra: 2023",
+  },
+  {
+    id: 100,
     title: "Primeiras Obras",
     img: "/proj/primeiras/1.jpg",
     fotos: [
@@ -286,7 +332,7 @@ export const projects = [
     dado2: "Ano de conclusão da obra: 2023",
   },
   {
-    id: 15,
+    id: 101,
     title: "Outros",
     img: "/proj/outros/1.jpg",
     fotos: [
@@ -306,49 +352,6 @@ export const projects = [
       "/proj/outros/14.jpg",
     ],
     decada: "outros",
-    local: "Ubatuba-SP",
-    name: "Ricardo Viggiani",
-    projeto: "Reforma - Arquitetura e Interiores",
-    dado1: "Ano do projeto: 2021",
-    dado2: "Ano de conclusão da obra: 2023",
-  },
-  {
-    id: 16,
-    title: "Praia Vermelha do Sul - TB",
-    description:
-      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
-    img: "/proj/projeto16/1.jpg",
-    fotos: [
-      "/proj/projeto16/2.jpg",
-      "/proj/projeto16/3.jpg",
-      "/proj/projeto16/4.jpg",
-      "/proj/projeto16/5.jpg",
-      "/proj/projeto16/6.jpg",
-      "/proj/projeto16/7.jpg",
-      "/proj/projeto16/8.jpg",
-    ],
-    decada: "todos",
-    local: "Ubatuba-SP",
-    name: "Ricardo Viggiani",
-    projeto: "Reforma - Arquitetura e Interiores",
-    dado1: "Ano do projeto: 2021",
-    dado2: "Ano de conclusão da obra: 2023",
-  },
-
-  {
-    id: 18,
-    title: "FX - R6",
-    description:
-      "“O que fazer com dezenas de peças de itaúba, várias bitolas e comprimentos de um cliente que desistiu de executar parte do seu projeto? A melhor solução para o reaproveitamento dessas madeiras foi comprá-las e planejar um novo projeto, no caso, a minha residência, que tem toda sua estrutura feita com itaúba da Zanchet, e ainda com esquadrias em freijó da Oficina de Marcenaria.” o projeto",
-    img: "/proj/projeto17/2.jpg",
-    fotos: [
-      "/proj/projeto17/1.jpg",
-      "/proj/projeto17/3.jpg",
-      "/proj/projeto17/4.jpg",
-      "/proj/projeto17/1.jpg",
-
-    ],
-    decada: "todos",
     local: "Ubatuba-SP",
     name: "Ricardo Viggiani",
     projeto: "Reforma - Arquitetura e Interiores",
