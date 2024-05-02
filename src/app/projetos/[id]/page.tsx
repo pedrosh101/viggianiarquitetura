@@ -15,7 +15,9 @@ import "swiper/css/thumbs";
 const ProjetoDetalhes = ({ params }: any) => {
   const proj = projects.find((proj) => proj.id.toString() === params.id);
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
+  const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(
+    null
+  );
 
   const openModal = (index: number) => {
     setSelectedImageIndex(index);
@@ -32,7 +34,6 @@ const ProjetoDetalhes = ({ params }: any) => {
       <main className="flex w-full flex-col bg-slate-100 text-black">
         <Navbar navbarZIndex={modalIsOpen} /> {/* Aqui está a alteração */}
         <div className="flex sm:flex-row flex-col sm:pt-24 pt-32 sm:px-6 px-4 sm:space-x-6 pb-12">
-
           {/* left */}
           <div className="flex flex-col md:h-screen sm:w-1/2">
             {/* main pic */}
@@ -46,35 +47,11 @@ const ProjetoDetalhes = ({ params }: any) => {
             </div>
 
             {/* textos */}
-            <h1 className="sm:text-5xl text-4xl sm:my-12 my-10 text-center">
+            <h1 className="sm:text-5xl text-4xl md:my-8 my-4">
               {proj?.title}
             </h1>
-            <div className="w-full text-sm">
-              {proj?.local && (
-                <div>
-                  <div className="flex justify-between">
-                    <h2 className="font-semibold">local</h2>
-                    <h2>{proj?.local}</h2>
-                  </div>
-                </div>
-              )}
-              {proj?.decada && (
-                <div>
-                  <div className="h-[1.0px] w-full bg-black my-2"></div>
-                  <div className="flex justify-between">
-                    <h2 className="font-semibold">ano</h2>
-                    <h2>{proj?.decada}</h2>
-                  </div>
-                </div>
-              )}
-              {proj?.description && (
-                <div>
-                  <div className="h-[1.0px] w-full bg-black my-2"></div>
-                  <div className="flex justify-between">
-                    <h2>{proj?.description}</h2>
-                  </div>
-                </div>
-              )}
+            <div className="w-full text-md">
+              {proj?.description && <h2>{proj?.description}</h2>}
             </div>
           </div>
 
@@ -85,7 +62,7 @@ const ProjetoDetalhes = ({ params }: any) => {
               <div
                 key={index}
                 onClick={() => openModal(index)}
-                className="relative h-96 w-full"
+                className="relative min-h-96 w-full"
               >
                 <Image
                   src={foto}

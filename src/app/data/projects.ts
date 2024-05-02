@@ -282,6 +282,8 @@ export const projects = [
     img: "/proj/projeto18/1.jpg",
     fotos: [
       "/proj/projeto18/2.jpg",
+      "/proj/projeto18/3.jpg",
+      "/proj/projeto18/4.jpg",
       "/proj/projeto18/1.jpg",
 
     ],
@@ -303,6 +305,66 @@ export const projects = [
       "/proj/projeto19/4.jpg",
       "/proj/projeto19/2.jpg",
       "/proj/projeto19/1.jpg",
+
+    ],
+    decada: "todos",
+    local: "Ubatuba-SP",
+    name: "Ricardo Viggiani",
+    projeto: "Reforma - Arquitetura e Interiores",
+    dado1: "Ano do projeto: 2021",
+    dado2: "Ano de conclusão da obra: 2023",
+  },
+  {
+    id: 16,
+    title: "Praia do Tenório - SV",
+    description:
+      "Manter a topografia do terreno, e ao mesmo tempo preservar a vista para o       mar, foi um dos desafios ao projetar essa obra, que se situa numa encosta      de morro, junto ao mar, numa praia da região central de Ubatuba. A solução que achamos, em conjunto com o proprietário, foi a de projetar uma estrutura em aço, com um vão livre de 24mts., ocupado com a piscina, o deck com pedras e o paisagismo.",
+    img: "/proj/projeto20/1.jpg",
+    fotos: [
+      "/proj/projeto20/3.jpg",
+      "/proj/projeto20/4.jpg",
+      "/proj/projeto20/2.jpg",
+      "/proj/projeto20/1.jpg",
+
+    ],
+    decada: "todos",
+    local: "Ubatuba-SP",
+    name: "Ricardo Viggiani",
+    projeto: "Reforma - Arquitetura e Interiores",
+    dado1: "Ano do projeto: 2021",
+    dado2: "Ano de conclusão da obra: 2023",
+  },
+  {
+    id: 17,
+    title: "Itamambuca - R10",
+    description:
+      "Com a necessidade de ampliar a casa, e ao mesmo tempo querendo evitar grandes reformas que viessem inviabilizar o uso da casa de praia, já frequentada pela família e pelos amigos, surgiu a ideia de fazer uma pequena construção no terreno ao lado. Uma boa suíte, um deck e uma varanda que abrigasse também uma área para cozinhar foi o pedido desses antigos clientes, que agora têm um espaço amplo e privativo, podendo desfrutar os finais de semana próximo ao mar de Itamambuca.",
+    img: "/proj/projeto21/1.jpg",
+    fotos: [
+      "/proj/projeto21/3.jpg",
+      "/proj/projeto21/4.jpg",
+      "/proj/projeto21/2.jpg",
+      "/proj/projeto21/1.jpg",
+
+    ],
+    decada: "todos",
+    local: "Ubatuba-SP",
+    name: "Ricardo Viggiani",
+    projeto: "Reforma - Arquitetura e Interiores",
+    dado1: "Ano do projeto: 2021",
+    dado2: "Ano de conclusão da obra: 2023",
+  },
+  {
+    id: 18,
+    title: "Itamambuca - R16",
+    description:
+      "Abrigar uma área de refeições arejada e bem iluminada era o desejo dos donos dessa casa na praia. O pergolado em garapeira, acrescido de um ripado para filtrar a quantidade excessiva de luz, e ainda as janelas com venezianas móveis, ajudaram a cumprir esse objetivo, permitindo que os amigos e a família pudessem se juntar nos finais de semana em torno de uma boa mesa.",
+    img: "/proj/projeto22/1.jpg",
+    fotos: [
+      "/proj/projeto22/3.jpg",
+      "/proj/projeto22/4.jpg",
+      "/proj/projeto22/2.jpg",
+      "/proj/projeto22/1.jpg",
 
     ],
     decada: "todos",
@@ -350,6 +412,16 @@ export const projects = [
       "/proj/outros/12.jpg",
       "/proj/outros/13.jpg",
       "/proj/outros/14.jpg",
+      "/proj/outros/15.jpg",
+      "/proj/outros/16.jpg",
+      "/proj/outros/17.jpg",
+      "/proj/outros/18.jpg",
+      "/proj/outros/19.jpg",
+      "/proj/outros/20.jpg",
+      "/proj/outros/21.jpg",
+      "/proj/outros/22.jpg",
+      "/proj/outros/23.jpg",
+      "/proj/outros/24.jpg",
     ],
     decada: "outros",
     local: "Ubatuba-SP",

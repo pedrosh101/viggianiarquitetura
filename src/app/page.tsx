@@ -32,7 +32,7 @@ export default function Home() {
               pathname: `/projetos`,
             }}
           >
-            <button className="font-sans font-light text-lg">
+            <button className="my-4 text-2xl">
               Ver todos projetos
             </button>
           </Link>
