@@ -318,7 +318,7 @@ export const projects = [
     id: 16,
     title: "Praia do Tenório - SV",
     description:
-      "Manter a topografia do terreno, e ao mesmo tempo preservar a vista para o       mar, foi um dos desafios ao projetar essa obra, que se situa numa encosta      de morro, junto ao mar, numa praia da região central de Ubatuba. A solução que achamos, em conjunto com o proprietário, foi a de projetar uma estrutura em aço, com um vão livre de 24mts., ocupado com a piscina, o deck com pedras e o paisagismo.",
+      "Manter a topografia do terreno, e ao mesmo tempo preservar a vista para o       mar, foi um dos desafios ao projetar essa obra, que se situa numa encosta      de morro, junto ao mar, numa praia da região central de Ubatuba. A solução que achamos, em conjunto com o proprietário, foi a de projetar uma estrutura em aço, com um vão livre de 24mts, ocupado com a piscina, o deck com pedras e o paisagismo.",
     img: "/proj/projeto20/1.jpg",
     fotos: [
       "/proj/projeto20/3.jpg",
