@@ -69,7 +69,7 @@ const Navbar = ({ navbarZIndex }: any) => {
         </div>
         {/* Controlando a exibição da lista de navegação */}
         <nav className="hidden sm:flex">
-          <ul className="flex space-x-4 text-2xl underline-offset-4">
+          <ul className="flex space-x-6 text-2xl underline-offset-4">
             <li>
               <Link href="/projetos">
                 <h1 className="hover:underline decoration-1">Projetos</h1>
@@ -105,7 +105,7 @@ const Navbar = ({ navbarZIndex }: any) => {
                 <Link href="/projetos">
                   <li onClick={toggleNav}>Projetos</li>
                 </Link>
-                <Link href="/sobre">
+                <Link href="/quem-somos">
                   <li onClick={toggleNav}>Quem Somos</li>
                 </Link>
                 <Link href="/contato">

@@ -22,10 +22,8 @@ import "swiper/css/thumbs";
 import Image from "next/image";
 
 export default function Projetos() {
-  const projeto100 = projects.find((proj) => proj.id === 100);
-  const projeto101 = projects.find((proj) => proj.id === 101);
-
-
+  const primeiros = projects.find((proj) => proj.id === 100);
+  const outros = projects.find((proj) => proj.id === 101);
 
   return (
     <>
@@ -33,8 +31,9 @@ export default function Projetos() {
       <main className="flex flex-col min-h-screen sm:px-24 px-4 bg-slate-100 pt-24 font-kabel text-black text-3xl items-center">
         <Accordion
           allowMultiple
-          className="flex flex-col w-full my-14 text-center items-center space-y-6"
+          className="flex flex-col w-full my-14 text-center items-center md:space-y-10 space-y-2"
         >
+          {/* primeiros projetos */}
           <AccordionItem>
             <h2>
               <AccordionButton>
@@ -51,7 +50,7 @@ export default function Projetos() {
                 modules={[Navigation]}
                 className="md:h-[20em] md:w-[36em] h-96 w-96 my-0 md:my-10"
               >
-                {projeto100?.fotos.map((foto, index) => (
+                {primeiros?.fotos.map((foto, index) => (
                   <SwiperSlide key={index}>
                     <div className="flex h-full w-full items-center justify-center relative">
                       <Image
@@ -67,6 +66,7 @@ export default function Projetos() {
             </AccordionPanel>
           </AccordionItem>
 
+          {/* todos */}
           <AccordionItem>
             <h2>
               <AccordionButton>
@@ -92,7 +92,8 @@ export default function Projetos() {
             </AccordionPanel>
           </AccordionItem>
 
-                    <AccordionItem>
+          {/* outros */}
+          <AccordionItem>
             <h2>
               <AccordionButton>
                 <span>Outros</span>
@@ -108,7 +109,7 @@ export default function Projetos() {
                 modules={[Navigation]}
                 className="md:h-[20em] md:w-[36em] h-96 w-96 my-0 md:my-10"
               >
-                {projeto101?.fotos.map((foto, index) => (
+                {outros?.fotos.map((foto, index) => (
                   <SwiperSlide key={index}>
                     <div className="flex h-full w-full items-center justify-center relative">
                       <Image

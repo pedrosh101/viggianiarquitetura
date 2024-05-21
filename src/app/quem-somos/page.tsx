@@ -1,5 +1,4 @@
 import Navbar from "../components/navbar";
-
 import Link from "next/link";
 import Image from "next/image";
 import Front from "../../../public/front.jpg";
@@ -8,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="flex flex-col min-h-screen sm:px-24 px-4 bg-slate-100 justify-between pt-24 font-kabel">
+      <main className="flex flex-col  sm:px-24 px-4 bg-slate-100 justify-between pt-24 font-kabel">
         <div className="flex sm:flex-row flex-col min-h-screen text-black text-xl my-20 gap-10">
           <div className="sm:w-2/5 justify-end flex flex-col mb-4 gap-5">
             <h1 className="text-3xl">Viggiani Arquitetura</h1>
@@ -46,7 +45,7 @@ export default function Home() {
             </h1>
             <h1 className="text-end font-sans text-base">Ricardo Viggiani</h1>
           </div>
-          <div className="sm:w-3/5 relative overflow-hidden">
+          <div className="sm:w-3/5 relative overflow-hidden sm:h-auto h-96">
             <Image
               src={Front}
               alt="Imagem"
