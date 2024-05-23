@@ -67,17 +67,20 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Felix",
+    title: "BT - R7",
     description:
-      "Casa toda voltada para a linda vista da praia do Felix, com estrutura de eucalipto e poucas paredes, para uma cliente que mora no exterior, mas que possa receber os irmãos e amigos.",
-    img: "/proj/projeto6/1.jpg",
+      "O pedido aqui foi para uma casa compacta, com estrutura de madeira serradas e esquadrias de alumínio preto, para um casal jovem, mas com a possibilidade de abrigar uma família maior.",
+    img: "/proj/projeto24/7.jpg",
     fotos: [
-      "/proj/projeto6/2.jpg",
-      "/proj/projeto6/3.jpg",
-      "/proj/projeto6/4.jpg",
-      "/proj/projeto6/5.jpg",
-      "/proj/projeto6/6.jpg",
-      "/proj/projeto6/1.jpg",
+      "/proj/projeto24/3.jpg",
+      "/proj/projeto24/4.jpg",
+      "/proj/projeto24/2.jpg",
+      "/proj/projeto24/8.jpg",
+      "/proj/projeto24/5.jpg",
+      "/proj/projeto24/6.jpg",
+      "/proj/projeto24/1.jpg",
+      "/proj/projeto24/7.jpg",
+
     ],
     decada: "todos",
     local: "Ubatuba-SP",
@@ -91,16 +94,16 @@ export const projects = [
     title: "Respinga - DR",
     description:
       "Espaços abertos, cimento queimado, cozinha com fogão à lenha e deck com uma vista incrível para um trecho pouco conhecido da costa de Ubatuba, utilizando ainda esquadrias de demolição junto com outras notas (marcenaria, feita sob medida)",
-    img: "/proj/projeto7/1.jpg",
+    img: "/proj/projeto7/3.jpg",
     fotos: [
       "/proj/projeto7/2.jpg",
-      "/proj/projeto7/3.jpg",
+      "/proj/projeto7/1.jpg",
       "/proj/projeto7/4.jpg",
       "/proj/projeto7/5.jpg",
       "/proj/projeto7/6.jpg",
       "/proj/projeto7/7.jpg",
       "/proj/projeto7/8.jpg",
-      "/proj/projeto7/1.jpg",
+      "/proj/projeto7/3.jpg",
     ],
     decada: "todos",
     local: "Ubatuba-SP",
@@ -114,15 +117,15 @@ export const projects = [
     title: "Praia Vermelha do Sul - MJ",
     description:
       "Implantar a casa de praia num terreno de forte aclive, e com um muro de arrimo já construído (projetado pelo escritório do renomado e falecido e arquiteto Joaquim Guedes) foi o desafio que assumimos ao fazer esse rojeto. O muro de arrimo, anteriormente projetado para proteger a futura obra, teve a sua função modificada ao adaptar o seu desenho para a construção dessa piscina, que teve o seu nível elevado, para poder se integrar totalmente ao deck e as áreas sociais da casa.",
-    img: "/proj/projeto8/8.jpg",
+    img: "/proj/projeto8/1.jpg",
     fotos: [
       "/proj/projeto8/2.jpg",
       "/proj/projeto8/4.jpg",
       "/proj/projeto8/5.jpg",
       "/proj/projeto8/6.jpg",
       "/proj/projeto8/7.jpg",
-      "/proj/projeto8/1.jpg",
       "/proj/projeto8/8.jpg",
+      "/proj/projeto8/1.jpg",
     ],
     decada: "todos",
     local: "Ubatuba-SP",
@@ -133,16 +136,16 @@ export const projects = [
   },
   {
     id: 7,
-    title: "Ateliê",
+    title: "ZP - R8",
     description:
-      "A ideia aqui era ter um local de trabalho para uma amiga, ceramista, que pudesse abrigar também exposições dela e outras artistas. Estrutura com eucalipto, paredes com terracor, piso cimentado, tijolo aparente, ajudaram à criar o clima para esse projeto.",
-    img: "/proj/projeto9/1.jpg",
+      "Reforma ampla de uma antiga casa na praia, abrigado a família que cresceu nos últimos anos, além dos amigos, sempre presentes. Área de lazer com churrasqueira, deck e spa com hidromassagem completaram essa reforma.",
+    img: "/proj/projeto19/4.jpg",
     fotos: [
-      "/proj/projeto9/2.jpg",
-      "/proj/projeto9/3.jpg",
+      "/proj/projeto19/3.jpg",
+      "/proj/projeto19/2.jpg",
+      "/proj/projeto19/1.jpg",
+      "/proj/projeto19/4.jpg",
 
-      "/proj/projeto9/5.jpg",
-      "/proj/projeto9/1.jpg",
     ],
     decada: "todos",
     local: "Ubatuba-SP",
@@ -224,13 +227,13 @@ export const projects = [
     title: "Praia Vermelha do Sul - TB",
     description:
       "Terreno de esquina em aclive, com área licenciada limitada, abrigando 3 suítes e área ampla de convivência foram as premissas que nortearam esse projeto para uma casa na praia.",
-    img: "/proj/projeto16/1.jpg",
+    img: "/proj/projeto16/4.jpg",
     fotos: [
       "/proj/projeto16/2.jpg",
       "/proj/projeto16/3.jpg",
-      "/proj/projeto16/4.jpg",
       "/proj/projeto16/5.jpg",
       "/proj/projeto16/6.jpg",
+      "/proj/projeto16/4.jpg",
       "/proj/projeto16/1.jpg",
     ],
     decada: "todos",
@@ -269,8 +272,8 @@ export const projects = [
     fotos: [
       "/proj/projeto18/2.jpg",
       "/proj/projeto18/3.jpg",
-      "/proj/projeto18/4.jpg",
       "/proj/projeto18/1.jpg",
+  
 
     ],
     decada: "todos",
@@ -282,16 +285,17 @@ export const projects = [
   },
   {
     id: 15,
-    title: "ZP - R8",
+    title: "Felix",
     description:
-      "Reforma ampla de uma antiga casa na praia, abrigado a família que cresceu nos últimos anos, além dos amigos, sempre presentes. Área de lazer com churrasqueira, deck e spa com hidromassagem completaram essa reforma.",
-    img: "/proj/projeto19/1.jpg",
+      "Casa toda voltada para a linda vista da praia do Felix, com estrutura de eucalipto e poucas paredes, para uma cliente que mora no exterior, mas que possa receber os irmãos e amigos.",
+    img: "/proj/projeto6/1.jpg",
     fotos: [
-      "/proj/projeto19/3.jpg",
-      "/proj/projeto19/4.jpg",
-      "/proj/projeto19/2.jpg",
-      "/proj/projeto19/1.jpg",
-
+      "/proj/projeto6/2.jpg",
+      "/proj/projeto6/3.jpg",
+      "/proj/projeto6/4.jpg",
+      "/proj/projeto6/5.jpg",
+      "/proj/projeto6/6.jpg",
+      "/proj/projeto6/1.jpg",
     ],
     decada: "todos",
     local: "Ubatuba-SP",
@@ -305,12 +309,12 @@ export const projects = [
     title: "Praia do Tenório - SV",
     description:
       "Manter a topografia do terreno, e ao mesmo tempo preservar a vista para o       mar, foi um dos desafios ao projetar essa obra, que se situa numa encosta      de morro, junto ao mar, numa praia da região central de Ubatuba. A solução que achamos, em conjunto com o proprietário, foi a de projetar uma estrutura em aço, com um vão livre de 24mts, ocupado com a piscina, o deck com pedras e o paisagismo.",
-    img: "/proj/projeto20/1.jpg",
+    img: "/proj/projeto20/4.jpg",
     fotos: [
       "/proj/projeto20/3.jpg",
-      "/proj/projeto20/4.jpg",
       "/proj/projeto20/2.jpg",
       "/proj/projeto20/1.jpg",
+      "/proj/projeto20/4.jpg",
 
     ],
     decada: "todos",
@@ -345,12 +349,12 @@ export const projects = [
     title: "Itamambuca - R16",
     description:
       "Abrigar uma área de refeições arejada e bem iluminada era o desejo dos donos dessa casa na praia. O pergolado em garapeira, acrescido de um ripado para filtrar a quantidade excessiva de luz, e ainda as janelas com venezianas móveis, ajudaram a cumprir esse objetivo, permitindo que os amigos e a família pudessem se juntar nos finais de semana em torno de uma boa mesa.",
-    img: "/proj/projeto22/1.jpg",
+    img: "/proj/projeto22/4.jpg",
     fotos: [
       "/proj/projeto22/3.jpg",
-      "/proj/projeto22/4.jpg",
       "/proj/projeto22/2.jpg",
       "/proj/projeto22/1.jpg",
+      "/proj/projeto22/4.jpg",
 
     ],
     decada: "todos",
@@ -365,12 +369,12 @@ export const projects = [
     title: "RS - R14",
     description:
       "O programa dessa reforma era a reformulação total da cobertura existente, e ainda a criação de uma suíte de hóspedes, varanda e piscina, sem aumentar a estrutura da construção que já existia. A Solução foi encontrada com as vigas de madeira e balanço e cobertura com telhas tipo sanduíche. Fechamentos com portas de correr ripadas, que permitem a entrada de luz e que ao mesmo tempo propiciam privacidade para os usuários da casa.",
-    img: "/proj/projeto23/1.jpg",
+    img: "/proj/projeto23/3.jpg",
     fotos: [
-      "/proj/projeto23/3.jpg",
       "/proj/projeto23/4.jpg",
       "/proj/projeto23/2.jpg",
       "/proj/projeto23/1.jpg",
+      "/proj/projeto23/3.jpg",
 
     ],
     decada: "todos",
@@ -382,20 +386,16 @@ export const projects = [
   },
   {
     id: 20,
-    title: "BT - R7",
+    title: "Ateliê",
     description:
-      "O pedido aqui foi para uma casa compacta, com estrutura de madeira serradas e esquadrias de alumínio preto, para um casal jovem, mas com a possibilidade de abrigar uma família maior.",
-    img: "/proj/projeto24/1.jpg",
+      "A ideia aqui era ter um local de trabalho para uma amiga, ceramista, que pudesse abrigar também exposições dela e outras artistas. Estrutura com eucalipto, paredes com terracor, piso cimentado, tijolo aparente, ajudaram à criar o clima para esse projeto.",
+    img: "/proj/projeto9/1.jpg",
     fotos: [
-      "/proj/projeto24/3.jpg",
-      "/proj/projeto24/4.jpg",
-      "/proj/projeto24/2.jpg",
-      "/proj/projeto24/8.jpg",
-      "/proj/projeto24/5.jpg",
-      "/proj/projeto24/6.jpg",
-      "/proj/projeto24/7.jpg",
-      "/proj/projeto24/1.jpg",
+      "/proj/projeto9/2.jpg",
+      "/proj/projeto9/3.jpg",
 
+      "/proj/projeto9/5.jpg",
+      "/proj/projeto9/1.jpg",
     ],
     decada: "todos",
     local: "Ubatuba-SP",
@@ -435,7 +435,6 @@ export const projects = [
       "/proj/primeiras/3.jpg",
       "/proj/primeiras/4.jpg",
       "/proj/primeiras/5.jpg",
-      "/proj/primeiras/6.jpg",
     ],
     decada: "primeiras",
     local: "Ubatuba-SP",
