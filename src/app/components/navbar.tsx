@@ -7,41 +7,40 @@ import Image from "next/image";
 
 const Navbar = ({ navbarZIndex }: any) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isProjectsOpen, setIsProjectsOpen] = useState(false);
   const navRef = useRef<HTMLDivElement | null>(null);
+  const projectsRef = useRef<HTMLDivElement | null>(null);
 
   const handleClickOutside = (event: MouseEvent) => {
     if (
       navRef.current &&
-      !(navRef.current as Node).contains(event.target as Node)
+      !(navRef.current as Node).contains(event.target as Node) &&
+      !(projectsRef.current as Node).contains(event.target as Node)
     ) {
       setIsOpen(false);
+      setIsProjectsOpen(false);
       document.removeEventListener("mousedown", handleClickOutside);
     }
   };
 
   useEffect(() => {
-    const handleClick = (event: MouseEvent) => {
-      if (
-        navRef.current &&
-        !(navRef.current as Node).contains(event.target as Node)
-      ) {
-        setIsOpen(false);
-      }
-    };
-
-    if (isOpen) {
-      document.addEventListener("mousedown", handleClick);
+    if (isOpen || isProjectsOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
     } else {
-      document.removeEventListener("mousedown", handleClick);
+      document.removeEventListener("mousedown", handleClickOutside);
     }
 
     return () => {
-      document.removeEventListener("mousedown", handleClick);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [isOpen]);
+  }, [isOpen, isProjectsOpen]);
 
   const toggleNav = () => {
     setIsOpen(!isOpen);
+  };
+
+  const toggleProjects = () => {
+    setIsProjectsOpen(!isProjectsOpen);
   };
 
   return (
@@ -52,7 +51,7 @@ const Navbar = ({ navbarZIndex }: any) => {
         }`}
       >
         <Link href="/">
-          <Image src={Logo} alt="logo" height={160} width={114} />
+          <Image src={Logo} alt="logo" height={160} width={120} />
         </Link>
         <div className="sm:hidden">
           <div
@@ -71,23 +70,54 @@ const Navbar = ({ navbarZIndex }: any) => {
         <nav className="hidden sm:flex">
           <ul className="flex space-x-6 text-2xl underline-offset-4">
             <li>
-              <Link href="/projetos">
-                <h1 className="hover:underline decoration-1">Projetos</h1>
-              </Link>
-            </li>
-            <li>
               <Link href="/quem-somos">
                 <h1 className="hover:underline decoration-1">Quem Somos</h1>
               </Link>
             </li>
+            <li onClick={toggleProjects} className="relative cursor-pointer">
+              <h1 className="hover:underline decoration-1">Obras</h1>
+              {isProjectsOpen && (
+                <div
+                  ref={projectsRef}
+                  className="absolute top-full left-0 mt-2 w-48 bg-white shadow-lg border border-gray-200 z-40"
+                >
+                  <ul className="flex flex-col space-y-2 p-4 text-xl font-medium">
+                    <li>
+                      <Link href="/obras/20-obras">
+                        <h1 className="hover:underline decoration-1">
+                          20 Obras
+                        </h1>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/obras/mais-obras">
+                        <h1 className="hover:underline decoration-1">
+                          Mais Obras
+                        </h1>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/obras/projetos">
+                        <h1 className="hover:underline decoration-1">
+                          Projetos
+                        </h1>
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              )}
+            </li>
             <li>
-              <Link href="/contato">
-                <h1 className="hover:underline decoration-1">Contato</h1>
-              </Link>
+              <a target="_blank"
+                href="https://wa.me/5512997149116"
+                className="hover:underline decoration-1"
+              >
+                Contato
+              </a>
             </li>
           </ul>
         </nav>
-        
+
         {/* Dropdown menu para dispositivos móveis */}
         <div
           className={`sm:hidden fixed inset-0 bg-black bg-opacity-75 z-30 transition-opacity duration-700 ${
@@ -102,15 +132,17 @@ const Navbar = ({ navbarZIndex }: any) => {
           >
             <section>
               <ul className="flex flex-col space-y-4 font-light text-2xl">
-                <Link href="/projetos">
-                  <li onClick={toggleNav}>Projetos</li>
-                </Link>
                 <Link href="/quem-somos">
                   <li onClick={toggleNav}>Quem Somos</li>
                 </Link>
-                <Link href="/contato">
-                  <li onClick={toggleNav}>Contato</li>
-                </Link>
+
+                <li onClick={toggleNav}>Projetos</li>
+
+                <li>
+                  <a onClick={toggleNav} href="https://wa.me/5512997149116" target="_blank">
+                    Contato
+                  </a>
+                </li>
               </ul>
             </section>
           </div>

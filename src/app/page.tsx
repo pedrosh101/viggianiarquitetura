@@ -29,11 +29,11 @@ export default function Home() {
         <div className="flex justify-center text-black pb-2">
           <Link
             href={{
-              pathname: `/projetos`,
+              pathname: `/obras/20-obras`,
             }}
           >
             <button className="my-4 text-2xl">
-              Ver todos projetos
+              Ver Mais
             </button>
           </Link>
         </div>
