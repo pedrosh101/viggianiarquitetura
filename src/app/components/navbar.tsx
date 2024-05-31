@@ -108,7 +108,8 @@ const Navbar = ({ navbarZIndex }: any) => {
               )}
             </li>
             <li>
-              <a target="_blank"
+              <a
+                target="_blank"
                 href="https://wa.me/5512997149116"
                 className="hover:underline decoration-1"
               >
@@ -133,13 +134,44 @@ const Navbar = ({ navbarZIndex }: any) => {
             <section>
               <ul className="flex flex-col space-y-4 font-light text-2xl">
                 <Link href="/quem-somos">
-                  <li onClick={toggleNav}>Quem Somos</li>
+                  <li
+                    className="hover:underline decoration-1"
+                    onClick={toggleNav}
+                  >
+                    Quem Somos
+                  </li>
+                </Link>
+                <Link href="/obras/20-obras">
+                  <li
+                    className="hover:underline decoration-1"
+                    onClick={toggleNav}
+                  >
+                    20 Obras
+                  </li>
+                </Link>
+                <Link href="/obras/mais-obras">
+                  <li
+                    className="hover:underline decoration-1"
+                    onClick={toggleNav}
+                  >
+                    Mais Obras
+                  </li>
+                </Link>
+                <Link href="/obras/projetos">
+                  <li
+                    className="hover:underline decoration-1"
+                    onClick={toggleNav}
+                  >
+                    Projetos
+                  </li>
                 </Link>
 
-                <li onClick={toggleNav}>Projetos</li>
-
                 <li>
-                  <a onClick={toggleNav} href="https://wa.me/5512997149116" target="_blank">
+                  <a
+                    onClick={toggleNav}
+                    href="https://wa.me/5512997149116"
+                    target="_blank"
+                  >
                     Contato
                   </a>
                 </li>
