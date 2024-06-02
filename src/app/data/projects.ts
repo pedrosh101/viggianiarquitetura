@@ -282,7 +282,7 @@ export const projects = [
     fotos: [
       "/proj/projeto18/2.jpg",
       "/proj/projeto18/3.jpg",
-      "/proj/projeto18/.jpg",
+      "/proj/projeto18/4.jpg",
       "/proj/projeto18/1.jpg",
     ],
     decada: "todos",
@@ -340,11 +340,11 @@ export const projects = [
     title: "Itamambuca - R10",
     description:
       "Com a necessidade de ampliar a casa, e ao mesmo tempo querendo evitar grandes reformas que viessem inviabilizar o uso da casa de praia, já frequentada pela família e pelos amigos, surgiu a ideia de fazer uma pequena construção no terreno ao lado. Uma boa suíte, um deck e uma varanda que abrigasse também uma área para cozinhar foi o pedido desses antigos clientes, que agora têm um espaço amplo e privativo, podendo desfrutar os finais de semana próximo ao mar de Itamambuca.",
-    img: "/proj/projeto21/1.jpg",
+    img: "/proj/projeto21/2.jpg",
     fotos: [
       "/proj/projeto21/3.jpg",
       "/proj/projeto21/4.jpg",
-      "/proj/projeto21/2.jpg",
+      "/proj/projeto21/1.jpg",
       "/proj/projeto21/5.jpg",
       "/proj/projeto21/6.jpg",
       "/proj/projeto21/7.jpg",
@@ -432,7 +432,7 @@ export const projects = [
     title: "Reforma - Praia Vermelha do Sul",
     description:
       "Reforma geral dessa obra e piscina, mantendo todas as características originais do projeto de autoria do arquiteto e professor Carlos Lemos, foi o objetivo principal desse trabalho na praia dos arquitetos, como era conhecida a praia Vermelha do Sul, em Ubatuba.",
-    img: "/proj/projeto25/1.jpg",
+    img: "/proj/projeto25/7.jpg",
     fotos: [
       "/proj/projeto25/3.jpg",
       "/proj/projeto25/4.jpg",
@@ -440,8 +440,8 @@ export const projects = [
       "/proj/projeto25/6.jpg",
       "/proj/projeto25/2.jpg",
       "/proj/projeto25/8.jpg",
-      "/proj/projeto25/7.jpg",
       "/proj/projeto25/1.jpg",
+      "/proj/projeto25/7.jpg",
     ],
     decada: "todos",
     local: "Ubatuba-SP",
@@ -486,7 +486,6 @@ export const projects = [
       "/proj/outros/11.jpg",
       "/proj/outros/12.jpg",
       "/proj/outros/13.jpg",
-
       "/proj/outros/15.jpg",
       "/proj/outros/16.jpg",
       "/proj/outros/17.jpg",
@@ -531,7 +530,6 @@ export const projects = [
       "/proj/projetos3d/19.jpg",
       "/proj/projetos3d/20.jpg",
       "/proj/projetos3d/21.jpg",
-      "/proj/projetos3d/22.jpg",
     ],
     decada: "projetos",
     local: "Ubatuba-SP",
