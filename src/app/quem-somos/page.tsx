@@ -15,32 +15,32 @@ export default function Home() {
             <h1 className="font-sans text-base">
               No final do ano de 1980 terminei o curso de arquitetura na
               Universidade Mackenzie em Sao Paulo. Ja trabalhava como estagiário
-              no Condephaat, onde permaneci, ja efetivado como arquiteto, até
-              maio de 1981, quando surgiu a oportunidade de trabalhar em
-              Ubatuba. E aqui resido até hoje, me dedicando aos projetos e
-              obras, especialmente de casas na praia.<br></br>
-              Nesses 43 anos desenvolvemos vários projetos para as pessoas que
-              optaram por morar ou passar temporadas próximas ao mar. Nosso
-              trabalho consiste em orientar os clientes desde o melhor
-              aproveitamento das suas áreas, seguindo a legislação municipal e
-              estadual, até a conclusão da sua obra e obtenção do habite-se,
-              passando pelo acompanhamento de todas etapas da sua construção.
-              <br></br>
-              Uso da energia solar e fotovoltaica, reaproveitamento das águas,
-              biodigestores, uso sustentável dos materiais, madeiras
-              renováveis…….são conceitos que procuramos desenvolver em nossos
-              projetos, junto com nossos clientes, seja em reformas ou em novas
-              construções, objetivando sempre uma melhor qualidade de vida. E
-              com essa filosofia, temos hoje mais de 250 obras entregues nas
-              diversas praias do litoral norte.<br></br> Algumas delas voce pode
-              ver aqui, ou em nosso{" "}
+              no Condephaat, onde permaneci, efetivado como arquiteto, até maio
+              de 1981, quando surgiu a oportunidade de trabalhar em Ubatuba. E
+              aqui resido até hoje, me dedicando aos projetos e obras,
+              especialmente de casas na praia.<br></br> Nesses 43 anos desenvolvemos
+              vários projetos para as pessoas que optaram por morar ou passar
+              temporadas próximas ao mar.<br></br> Nosso escritório está estruturado
+              também para oferecer todo suporte na execução das obras durante
+              todas suas fases. Esse trabalho consiste em orientar os clientes
+              desde o melhor aproveitamento das suas áreas, seguindo a
+              legislação existente, até a conclusão das suas obras, passando
+              pelo acompanhamento de todas etapas da construção.<br></br> Escolha dos
+              materiais mais adequados para cada projeto, uso da energia solar e
+              fotovoltaica, madeiras renováveis, são conceitos que procuramos
+              desenvolver em nossos projetos, junto com os clientes, seja em
+              reformas ou em novas construções, objetivando sempre a melhor
+              relação entre custos e benefícios. E com essa filosofia, temos
+              hoje mais de 250 obras entregues nas diversas praias do litoral
+              norte.<br></br>
+              Algumas delas você pode ver aqui, ou em nosso,{" "} 
               <Link
                 href="https://www.instagram.com/viggianiarquitetura"
                 target="_blank"
                 className="text-red-500"
               >
                 Instagram
-              </Link>
+              </Link> incluindo alguns projetos em andamento.
               .
             </h1>
             <h1 className="text-end font-sans text-base">Ricardo Viggiani</h1>
@@ -54,7 +54,6 @@ export default function Home() {
             />
           </div>
         </div>
-
       </main>
     </>
   );
