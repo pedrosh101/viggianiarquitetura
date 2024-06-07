@@ -25,7 +25,7 @@ export default function Projetos() {
           spaceBetween={4}
           modules={[Navigation, Autoplay]}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
-          className="md:h-[24em] md:w-[36em] h-96 w-96 my-0 md:my-10"
+          className="md:h-[24em] md:w-[32em] h-96 w-96 my-0 md:my-10"
         >
           {projetos3d?.fotos.map((foto, index) => (
             <SwiperSlide key={index}>

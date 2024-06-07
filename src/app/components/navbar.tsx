@@ -51,7 +51,7 @@ const Navbar = ({ navbarZIndex }: any) => {
         }`}
       >
         <Link href="/">
-          <Image src={Logo} alt="logo" height={160} width={120} />
+          <Image src={Logo} alt="logo" height={160} width={138} />
         </Link>
         <div className="sm:hidden">
           <div
