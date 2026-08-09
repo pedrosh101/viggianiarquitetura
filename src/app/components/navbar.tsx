@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Logo from "../../../public/VIGGIANI.png";
 import Image from "next/image";
+import { X, Mail, Phone, MapPin } from "lucide-react";
 
 const Navbar = ({ navbarZIndex }: any) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,14 +13,14 @@ const Navbar = ({ navbarZIndex }: any) => {
   const projectsRef = useRef<HTMLDivElement | null>(null);
 
   const handleClickOutside = (event: MouseEvent) => {
-    if (
-      navRef.current &&
-      !(navRef.current as Node).contains(event.target as Node) &&
-      !(projectsRef.current as Node).contains(event.target as Node)
-    ) {
+    const target = event.target as Node;
+
+    const clickedInsideNav = navRef.current?.contains(target) ?? false;
+    const clickedInsideProjects = projectsRef.current?.contains(target) ?? false;
+
+    if (!clickedInsideNav && !clickedInsideProjects) {
       setIsOpen(false);
       setIsProjectsOpen(false);
-      document.removeEventListener("mousedown", handleClickOutside);
     }
   };
 
@@ -46,12 +47,12 @@ const Navbar = ({ navbarZIndex }: any) => {
   return (
     <>
       <div
-        className={`flex w-full items-center justify-between font-kabel bg-slate-100 py-2 px-4 sm:px-24 text-black font-extralight fixed ${
+        className={`flex w-full items-center justify-between font-kabel bg-slate-100 py-3 px-4 sm:px-12 text-black font-extralight fixed ${
           navbarZIndex ? "z-0" : "z-30"
         }`}
       >
         <Link href="/">
-          <Image src={Logo} alt="logo" height={160} width={138} />
+          <Image src={Logo} alt="logo" height={160} width={124} />
         </Link>
         <div className="sm:hidden">
           <div
@@ -61,14 +62,14 @@ const Navbar = ({ navbarZIndex }: any) => {
             <svg fill="none" viewBox="0 0 24 24" height="1.5em">
               <path
                 fill="black"
-                d="M8 6a2 2 0 11-4 0 2 2 0 014 0zM8 12a2 2 0 11-4 0 2 2 0 014 0zM6 20a2 2 0 100-4 2 2 0 000 4zM14 6a2 2 0 11-4 0 2 2 0 014 0zM12 14a2 2 0 100-4 2 2 0 000 4zM14 18a2 2 0 11-4 0 2 2 0 014 0zM18 8a2 2 0 100-4 2 2 0 000 4zM20 12a2 2 0 11-4 0 2 2 0 014 0zM18 20a2 2 0 100-4 2 2 0 000 4z"
+                d="M8 6a2 2 0 11-4 0 2 2 0 014 0zM8 12a2 2 0 11-4 0 2 2 0 014 0zM6 20a2 2 0 100-4 2 2 0 000 4zM14 6a2 2 0 11-4 0 2 2 0 014 0zM12 14a2 2 0 100-4 2 2 0 000 4zM14 18a2 2 0 11-4 0 2 2 0 014 0zM18 8a2 2 0 100-4 2 2 0 004 0zM20 12a2 2 0 11-4 0 2 2 0 014 0zM18 20a2 2 0 100-4 2 2 0 000 4z"
               />
             </svg>
           </div>
         </div>
         {/* Controlando a exibição da lista de navegação */}
         <nav className="hidden sm:flex">
-          <ul className="flex space-x-6 text-2xl underline-offset-4">
+          <ul className="flex space-x-6 text-xl 2xl:text-2xl underline-offset-4">
             <li>
               <Link href="/quem-somos">
                 <h1 className="hover:underline decoration-1">Quem Somos</h1>
@@ -127,10 +128,19 @@ const Navbar = ({ navbarZIndex }: any) => {
         >
           <div
             ref={navRef}
-            className={`fixed flex flex-col right-0 top-0 h-full w-72 sm:w-80 p-10 bg-stone-800 shadow transition-transform transform duration-700 text-white ${
+            className={`fixed flex flex-col right-0 top-0 h-full w-[80%] p-8 shadow transition-transform transform duration-700 text-white ${
               isOpen ? "translate-x-0" : "translate-x-full"
             }`}
+            style={{ backgroundColor: "#9A9A9A" }}
           >
+            <button
+              onClick={toggleNav}
+              aria-label="Fechar menu"
+              className="self-end p-2 -mr-2 mb-6 hover:opacity-70 transition-opacity"
+            >
+              <X size={28} strokeWidth={1.5} />
+            </button>
+
             <section>
               <ul className="flex flex-col space-y-4 font-light text-2xl">
                 <Link href="/quem-somos">
@@ -177,6 +187,39 @@ const Navbar = ({ navbarZIndex }: any) => {
                 </li>
               </ul>
             </section>
+
+            <div className="mt-auto pt-8 border-t border-white/30">
+              <ul className="flex flex-col space-y-3 text-md font-light">
+                <li>
+                  <a
+                    href="mailto:ricardoviggiani@terra.com.br"
+                    className="flex items-center gap-3 hover:underline decoration-1"
+                  >
+                    <Mail size={18} strokeWidth={1.5} className="shrink-0" />
+                    ricardoviggiani@terra.com.br
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="tel:+5512997143116"
+                    className="flex items-center gap-3 hover:underline decoration-1"
+                  >
+                    <Phone size={18} strokeWidth={1.5} className="shrink-0" />
+                    (12) 99714 3116
+                  </a>
+                </li>
+                <li className="flex items-start gap-3">
+                  <MapPin
+                    size={18}
+                    strokeWidth={1.5}
+                    className="shrink-0 mt-0.5"
+                  />
+                  <span>
+                    R. Cunhambebe 351 / 45, Ubatuba, São Paulo, Brasil
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
