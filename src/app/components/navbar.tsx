@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Logo from "../../../public/VIGGIANI.png";
 import Image from "next/image";
-import { X, Mail, Phone, MapPin } from "lucide-react";
+import { X, Mail, Phone, MapPin, Menu } from "lucide-react";
 
 const Navbar = ({ navbarZIndex }: any) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,8 @@ const Navbar = ({ navbarZIndex }: any) => {
     const target = event.target as Node;
 
     const clickedInsideNav = navRef.current?.contains(target) ?? false;
-    const clickedInsideProjects = projectsRef.current?.contains(target) ?? false;
+    const clickedInsideProjects =
+      projectsRef.current?.contains(target) ?? false;
 
     if (!clickedInsideNav && !clickedInsideProjects) {
       setIsOpen(false);
@@ -52,19 +53,17 @@ const Navbar = ({ navbarZIndex }: any) => {
         }`}
       >
         <Link href="/">
-          <Image src={Logo} alt="logo" height={160} width={124} />
+          <Image
+            src={Logo}
+            alt="logo"
+            width={124}
+            height={160}
+            className="w-[100px] sm:w-[124px] h-auto"
+          />
         </Link>
         <div className="sm:hidden">
-          <div
-            onClick={toggleNav}
-            className="text-2xl cursor-pointer place-self-center"
-          >
-            <svg fill="none" viewBox="0 0 24 24" height="1.5em">
-              <path
-                fill="black"
-                d="M8 6a2 2 0 11-4 0 2 2 0 014 0zM8 12a2 2 0 11-4 0 2 2 0 014 0zM6 20a2 2 0 100-4 2 2 0 000 4zM14 6a2 2 0 11-4 0 2 2 0 014 0zM12 14a2 2 0 100-4 2 2 0 000 4zM14 18a2 2 0 11-4 0 2 2 0 014 0zM18 8a2 2 0 100-4 2 2 0 004 0zM20 12a2 2 0 11-4 0 2 2 0 014 0zM18 20a2 2 0 100-4 2 2 0 000 4z"
-              />
-            </svg>
+          <div onClick={toggleNav} className="cursor-pointer place-self-center">
+            <Menu size={28} strokeWidth={2} />
           </div>
         </div>
         {/* Controlando a exibição da lista de navegação */}
@@ -189,7 +188,7 @@ const Navbar = ({ navbarZIndex }: any) => {
             </section>
 
             <div className="mt-auto pt-8 border-t border-white/30">
-              <ul className="flex flex-col space-y-3 text-md font-light">
+              <ul className="flex flex-col space-y-3 text-sm font-light">
                 <li>
                   <a
                     href="mailto:ricardoviggiani@terra.com.br"

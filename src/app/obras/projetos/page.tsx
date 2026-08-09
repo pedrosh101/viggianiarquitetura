@@ -36,39 +36,39 @@ export default function Projetos() {
     });
   }, [api]);
 
-  return (
-    <>
-      <Navbar />
-      <main className="flex flex-col items-center min-h-screen bg-slate-100 pt-24 font-kabel text-black text-3xl">
-        <Carousel
-          setApi={setApi}
-          plugins={[plugin.current]}
-          onMouseEnter={plugin.current.stop}
-          onMouseLeave={plugin.current.reset}
-          className="md:h-[24em] md:w-[32em] h-96 w-96 my-0 md:my-10"
-        >
-          <CarouselContent className="h-full">
-            {projetos3d?.fotos.map((foto, index) => (
-              <CarouselItem key={index} className="h-96 md:h-[24em]">
-                <div className="flex h-full w-full items-center justify-center relative">
-                  <Image
-                    src={foto}
-                    alt={`Imagem ${index + 1}`}
-                    className="block object-contain"
-                    fill
-                  />
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="text-black" />
-          <CarouselNext className="text-black" />
-        </Carousel>
+ return (
+  <>
+    <Navbar />
+    <main className="flex flex-col items-center min-h-screen bg-slate-100 pt-24 px-4 sm:px-6 font-kabel text-black text-3xl overflow-x-hidden">
+      <Carousel
+        setApi={setApi}
+        plugins={[plugin.current]}
+        onMouseEnter={plugin.current.stop}
+        onMouseLeave={plugin.current.reset}
+        className="h-96 w-11/12 max-w-[24rem] my-0 md:h-[24em] md:w-[32em] md:max-w-none md:my-10"
+      >
+        <CarouselContent className="h-full">
+          {projetos3d?.fotos.map((foto, index) => (
+            <CarouselItem key={index} className="h-96 md:h-[24em]">
+              <div className="flex h-full w-full items-center justify-center relative">
+                <Image
+                  src={foto}
+                  alt={`Imagem ${index + 1}`}
+                  className="block object-contain"
+                  fill
+                />
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <CarouselPrevious className="text-black left-1 md:-left-12" />
+        <CarouselNext className="text-black right-1 md:-right-12" />
+      </Carousel>
 
-        <div className="text-sm text-slate-600 mt-2">
-          {current} / {count}
-        </div>
-      </main>
-    </>
-  );
+      <div className="text-sm text-slate-600 mt-2">
+        {current} / {count}
+      </div>
+    </main>
+  </>
+);
 }

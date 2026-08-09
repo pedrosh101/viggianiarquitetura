@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="flex flex-col pt-32 sm:px-6 px-4 pb-12 bg-slate-100 justify-between  font-kabel">
+      <main className="flex flex-col pt-28 md:pt-32 sm:px-6 px-4 pb-12 bg-slate-100 justify-between  font-kabel">
         <section className="flex sm:flex-row flex-col min-h-screen text-black gap-20">
           <div className="sm:w-2/5 justify-end flex flex-col mb-4 gap-5">
             <h1 className="text-5xl">Viggiani Arquitetura</h1>

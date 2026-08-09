@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="flex flex-col min-h-screen sm:px-6 px-4 bg-slate-100 justify-between pt-32 font-kabel pb-8">
+      <main className="flex flex-col min-h-screen pt-28 md:pt-32 sm:px-6 px-4 bg-slate-100 justify-between  font-kabel pb-8">
         <div className="grid sm:grid-cols-3 gap-2 text-white pb-2">
           {projects
             .filter((proj) => proj.decada === "todos")

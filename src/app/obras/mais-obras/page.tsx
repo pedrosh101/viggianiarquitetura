@@ -41,13 +41,13 @@ export default function Projetos() {
   return (
     <>
       <Navbar />
-      <main className="flex flex-col items-center min-h-screen bg-slate-100 pt-32 sm:px-6 px-4 pb-12 font-kabel text-black text-3xl">
+      <main className="flex flex-col items-center min-h-screen bg-slate-100 pt-28 md:pt-32 sm:px-6 px-4 pb-12 font-kabel text-black text-3xl">
         <Carousel
           setApi={setApi}
           plugins={[plugin.current]}
           onMouseEnter={plugin.current.stop}
           onMouseLeave={plugin.current.reset}
-          className="md:h-[24em] md:w-[32em] h-96 w-96"
+          className="h-96 w-full max-w-[24rem] md:h-[24em] md:w-[32em] md:max-w-none"
         >
           <CarouselContent className="h-full">
             {todasFotos.map((foto, index) => (
@@ -64,8 +64,8 @@ export default function Projetos() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="text-black" />
-          <CarouselNext className="text-black" />
+          <CarouselPrevious className="text-black left-1 md:-left-12" />
+          <CarouselNext className="text-black right-1 md:-right-12" />
         </Carousel>
 
         <div className="text-sm text-slate-600 mt-2">

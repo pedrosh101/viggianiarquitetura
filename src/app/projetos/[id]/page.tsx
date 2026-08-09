@@ -51,7 +51,7 @@ const ProjetoDetalhes = ({ params }: any) => {
     <>
       <main className="flex w-full flex-col bg-slate-100 text-black">
         <Navbar navbarZIndex={modalIsOpen} />
-        <div className="flex sm:flex-row flex-col pt-32 sm:px-6 px-4 pb-12">
+        <div className="flex sm:flex-row flex-col pt-28 md:pt-32 sm:px-6 px-4 pb-12">
           {/* left */}
           <div className="flex w-full flex-col md:w-1/2 md:h-screen md:sticky md:top-0 md:pr-8">
             <div className="relative h-[60vh] min-h-[400px] w-full md:h-[70vh]">
